@@ -4,32 +4,213 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template project</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
-  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  <title>Countries</title>
 </head>
 <body>
   <!-- Site header start -->
   <header class="site-header">
-
+    <div class="container">
+      <div class="head-box">
+        <a class="logo" href="./index.html"><p class="logo-text">Where in the world?</p></a>
+        <button class="mode" type="button">Dark Mode</button>
+      </div>
+    </div>
   </header>
   <!-- Site header finish -->
-
+  
   <!-- Site main start -->
   <main class="site-main">
     <!-- Hero section start -->
     <section class="hero">
-      
+      <div class="container">
+        <div class="hero-box">
+          <input type="text" class="form-control" placeholder="Search for a country…" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          
+          <div class="btn-group">
+            <button type="button" class="btn btn-light dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              Action
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Africa</a></li>
+              <li><a class="dropdown-item" href="#">America</a></li>
+              <li><a class="dropdown-item" href="#">Asia</a></li>
+              <li><a class="dropdown-item" href="#">Europe</a></li>
+              <li><a class="dropdown-item" href="#">Oceania</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Hero section finish -->
+    <section class="countries">
+      <div class="container">
+        <div class="row countries__box">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Germany.svg.jpg" class="card-img-top" alt="Germany">
+              <div class="card-body">
+                <h2 class="card-title">Germany</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/USA.jpg" class="card-img-top" alt="USA">
+              <div class="card-body">
+                <h2 class="card-title">Germany</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Brazil.jpg" class="card-img-top" alt="Brazil">
+              <div class="card-body">
+                <h2 class="card-title">Germany</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Iseland.jpg" class="card-img-top" alt="Iseland">
+              <div class="card-body">
+                <h2 class="card-title">Germany</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Afganistan.jpg" class="card-img-top" alt="Afganistan">
+              <div class="card-body">
+                <h2 class="card-title">Afghanistan</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Island.jpg" class="card-img-top" alt="Island">
+              <div class="card-body">
+                <h2 class="card-title">Åland Islands</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Albania.jpg" class="card-img-top" alt="Albania">
+              <div class="card-body">
+                <h2 class="card-title">Albania</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card border-0" style="width: 264px;">
+              <img src="images/Algeria.jpg" class="card-img-top" alt="Algeria">
+              <div class="card-body">
+                <h2 class="card-title">Algeria</h2>
+                <ul class="card-list">
+                  <li class="card-item">
+                    <strong class="card-str">Population: </strong> <p class="card-text"> 81,770,900</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Region: </strong> <p class="card-text"> Europe</p>
+                  </li>
+                  <li class="card-item">
+                    <strong class="card-str">Capital:  </strong> <p class="card-text"> Berlin</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- Site main finish -->
-
+  
   <!-- Site footer start -->
   <footer class="site-footer">
-
+    
   </footer>
   <!-- Site footer finish -->
+  <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./jscript/main.js"></script>
 </body>
 </html>
